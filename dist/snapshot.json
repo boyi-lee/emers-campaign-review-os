@@ -3658,30 +3658,30 @@
   "checks": [
     [
       "DESCENTE TW",
-      0.0,
       0,
-      0.0,
+      0,
+      0,
       0
     ],
     [
       "ASH GOLF",
-      0.0,
+      0,
       0,
       0,
       0
     ],
     [
       "Callaway",
-      0.0,
+      0,
       0,
       0,
       0
     ],
     [
       "2XU TW",
-      0.0,
       0,
-      0.0,
+      0,
+      0,
       0
     ]
   ],
@@ -3694,7 +3694,7 @@
     "cis": "https://github.com/boyi-lee/emers_ec_mkt_dashboard/blob/main/index.html",
     "corporate": "https://www.emers.com/home-zh.html"
   },
-  "version": "3.3.0",
+  "version": "3.4.0",
   "shopify_validation": "All four Taiwan stores: sales billing_country, sessions session_country; ASH current direct reconciliation, others all 3 periods; CA daily zeros verified. Product names not SKU. Creative samples 19 representative records, excerpts only.",
   "source_status": {
     "meta": "Meta Ads account-level country TW; 2025 same calendar dates; 2026 snapshot checked 2026-11-25",
@@ -3732,5 +3732,92 @@
         }
       }
     }
+  },
+  "market": {
+    "source": "使用者提供台股交易日資料，尚未與證交所獨立核對",
+    "period": "2026-11-02–2026-11-20",
+    "rows": [
+      {
+        "date": "2026-11-02",
+        "return_pct": -0.65,
+        "close": 44920.14
+      },
+      {
+        "date": "2026-11-03",
+        "return_pct": -3.59,
+        "close": 43307.54
+      },
+      {
+        "date": "2026-11-04",
+        "return_pct": -0.83,
+        "close": 42948.91
+      },
+      {
+        "date": "2026-11-05",
+        "return_pct": -3.2,
+        "close": 41574.72
+      },
+      {
+        "date": "2026-11-06",
+        "return_pct": -4.51,
+        "close": 39701.64
+      },
+      {
+        "date": "2026-11-09",
+        "return_pct": 4.94,
+        "close": 41661.7
+      },
+      {
+        "date": "2026-11-10",
+        "return_pct": 2.52,
+        "close": 42711.92
+      },
+      {
+        "date": "2026-11-11",
+        "return_pct": 3.62,
+        "close": 44257.15
+      },
+      {
+        "date": "2026-11-12",
+        "return_pct": -2.63,
+        "close": 43091.87
+      },
+      {
+        "date": "2026-11-13",
+        "return_pct": 1.35,
+        "close": 43675.12
+      },
+      {
+        "date": "2026-11-16",
+        "return_pct": -6.03,
+        "close": 41040.08
+      },
+      {
+        "date": "2026-11-17",
+        "return_pct": -2.31,
+        "close": 40092.11
+      },
+      {
+        "date": "2026-11-18",
+        "return_pct": 0.26,
+        "close": 40194.91
+      },
+      {
+        "date": "2026-11-19",
+        "return_pct": -4.4,
+        "close": 38426.89
+      },
+      {
+        "date": "2026-11-20",
+        "return_pct": -6.23,
+        "close": 36033.29
+      }
+    ],
+    "controls": [
+      "每日已記錄 Meta + Google 花費",
+      "11/11 指標",
+      "11/16起後段檔期指標"
+    ],
+    "lag": "下一日曆日（包括週末）"
   }
 }

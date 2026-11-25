@@ -12,8 +12,9 @@ with sync_playwright() as p:
   assert '9,008,207' in page.locator('#s0').inner_text()
   assert '1,389,630' in page.locator('#s0').inner_text();assert '6.70' in page.locator('#s0').inner_text();assert '15.96%' not in page.locator('#s0').inner_text()
   assert '11月營收目標進度' not in page.locator('body').inner_text()
-  for i in range(9):
+  for i in range(10):
    page.locator(f'#nav [data-i="{i}"]').click();assert page.locator(f'#s{i}').is_visible(),f'{label}, chapter {i}'
+  page.locator('#nav [data-i="9"]').click();assert '補充資訊' in page.locator('#s9').inner_text();page.select_option('#marketBrand','2XU');assert '138,595.30' in page.locator('#marketDetail').inner_text();assert page.locator('#marketTrend .chart-mark').count()==30
   # Verify real plotted marks and chart controls, not just section existence.
   for i in range(8):
    page.locator(f'#nav [data-i="{i}"]').click(); assert page.locator(f'#s{i} .chart-mark, #s{i} .rankfill').count()>0
