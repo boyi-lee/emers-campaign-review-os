@@ -3694,7 +3694,7 @@
     "cis": "https://github.com/boyi-lee/emers_ec_mkt_dashboard/blob/main/index.html",
     "corporate": "https://www.emers.com/home-zh.html"
   },
-  "version": "3.4.0",
+  "version": "3.4.1",
   "shopify_validation": "All four Taiwan stores: sales billing_country, sessions session_country; ASH current direct reconciliation, others all 3 periods; CA daily zeros verified. Product names not SKU. Creative samples 19 representative records, excerpts only.",
   "source_status": {
     "meta": "Meta Ads account-level country TW; 2025 same calendar dates; 2026 snapshot checked 2026-11-25",
@@ -3813,11 +3813,6 @@
         "close": 36033.29
       }
     ],
-    "controls": [
-      "每日已記錄 Meta + Google 花費",
-      "11/11 指標",
-      "11/16起後段檔期指標"
-    ],
-    "lag": "下一日曆日（包括週末）"
+    "method": "全部15交易日當日 Pearson r；上漲與下跌日平均淨營收"
   }
 }
